@@ -1,6 +1,6 @@
 # Hide-Text-In-Image
 
-This is a simple project that I developed for a high school computer science class.  In this project I embed an encrypted message into an image by using an image's pixel data and its exif data.  The encryption scheme is simple and effective enough to hide information from the computer illiterate.  
+I embed an encrypted message into an image by using an image's pixel data and its exif data.  The encryption scheme is simple and effective enough to hide information from the computer illiterate.  
 
 <figure>  
 <img src="hti_diagram.png"></img>
