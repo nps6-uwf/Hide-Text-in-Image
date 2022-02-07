@@ -90,7 +90,7 @@ def addRandomChannelMod(arr: list):
     mod 3 will be the color channel we use to encrypt/ decrypt our secret message.
     '''
     k = randint(0, 3)
-    arr[0, 0, 0] += k if arr[0, 0, 0] + k <= 255 else -k # prevent an overflow
+    arr[0, 0, 0] += k if arr[0, 0, 0] + k <= 255 else arr[0, 0, 0] - k # prevent an overflow
     return arr[0, 0, 0] % 3
 
 
